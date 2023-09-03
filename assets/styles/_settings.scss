@@ -1,0 +1,13 @@
+$color1 : rgb(114,89,74); /* Couleur marron taupe */
+
+@font-face {
+    font-family: "Lato";
+    src: url(../../assets/fonts/Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Lato";
+}

@@ -1,0 +1,55 @@
+/* Couleur marron taupe */
+@font-face {
+  font-family: "Lato";
+  src: url(../../assets/fonts/Lato-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Lato";
+}
+
+body {
+  background: rgb(242, 215, 181);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  height: 300px;
+  border-radius: 20px;
+}
+
+nav {
+  background-color: rgb(114, 89, 74);
+  width: 85%;
+  margin: 0 auto;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+ul li {
+  margin: 0 40px;
+}/*# sourceMappingURL=style.css.map */
