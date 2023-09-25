@@ -11,3 +11,9 @@ $color1 : rgb(114,89,74); /* Couleur marron taupe */
     list-style: none;
     font-family: "Lato";
 }
+
+body {
+    background: url(../../img/bg.jpg) center/cover no-repeat;
+    min-height: 100vh;
+    height: 100vh;
+}

@@ -11,7 +11,9 @@
 }
 
 body {
-  background: rgb(242, 215, 181);
+  background: url(../../img/bg.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 header {
@@ -29,6 +31,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
+  height: 100vh;
 }
 
 img {

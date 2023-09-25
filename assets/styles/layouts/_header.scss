@@ -1,32 +1,28 @@
-body {
-    background: rgb(242,215,181);
-}
-
 header {
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
+    height: 100vh;
+    
 }
-
-
-img {
-    height: 300px;
-    border-radius: 20px;
-}
-
-nav {
-    background-color: $color1;
-    width: 85%;
-    margin: 0 auto;
-}
-
-ul {
-    display: flex;
-    margin: 20px 20px;
-    justify-content: space-around;
-    li {
-        margin: 0 40px;
+    img {
+        height: 300px;
+        border-radius: 20px;
     }
+    nav {
+        background-color: $color1;
+        width: 85%;
+        margin: 0 auto;
+    }
+    ul {
+        display: flex;
+        margin: 20px 20px;
+        justify-content: space-around;
+        li {
+            margin: 0 40px;
+        }
+
 }
