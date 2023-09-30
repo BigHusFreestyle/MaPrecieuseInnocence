@@ -3,6 +3,10 @@
   font-family: "Lato";
   src: url(../../assets/fonts/Lato-Regular.ttf);
 }
+@font-face {
+  font-family: "Allura";
+  src: url(/assets/fonts/Allura/Allura-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,49 +14,58 @@
   font-family: "Lato";
 }
 
-body {
-  background: url(/assets/img/bg.jpg) center/cover no-repeat;
-  min-height: 100vh;
-  height: 100vh;
-}
-
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
-  height: 100vh;
+  background-image: url(/assets/img/bg.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  height: 70vh;
+  margin-top: 70px;
+  padding-top: 100px;
 }
-
-img {
-  height: 300px;
-  border-radius: 20px;
+header h1 {
+  font-family: "Allura";
+  text-align: center;
+  margin-top: -180px;
+  padding-top: 20px;
+  font-size: 4rem;
+  position: relative;
 }
-
-nav {
-  background-color: rgb(114, 89, 74);
-  width: 85%;
-  margin: 0 auto;
+header h1::before {
+  content: "";
+  position: absolute;
+  background: black;
+  height: 1px;
+  width: 25%;
+  bottom: 40px;
+  left: 4%;
 }
-
-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px 20px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+header h1::after {
+  content: "";
+  position: absolute;
+  background: black;
+  height: 1px;
+  width: 25%;
+  bottom: 40px;
+  right: 4%;
 }
-ul li {
-  margin: 0 40px;
+header h2 {
+  text-align: center;
+  color: black;
+  font-family: "Lato";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: whitesmoke;
+  margin-top: 300px;
+  -webkit-box-shadow: 0px 3px 20px black;
+          box-shadow: 0px 3px 20px black;
+}
+header ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  margin: 320px auto 0;
 }/*# sourceMappingURL=style.css.map */

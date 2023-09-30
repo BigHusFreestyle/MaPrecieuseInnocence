@@ -4,16 +4,14 @@ $color1 : rgb(114,89,74); /* Couleur marron taupe */
     font-family: "Lato";
     src: url(../../assets/fonts/Lato-Regular.ttf);
 }
+@font-face {
+    font-family: "Allura";
+    src: url(/assets/fonts/Allura/Allura-Regular.ttf);
+}
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: "Lato";
-}
-
-body {
-    background: url(/assets/img/bg.jpg) center/cover no-repeat;
-    min-height: 100vh;
-    height: 100vh;
 }
