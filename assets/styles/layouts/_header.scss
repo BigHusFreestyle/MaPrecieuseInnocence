@@ -50,6 +50,39 @@ header {
         text-transform: uppercase;
         text-align: center;
         width: 80%;
-        margin: 320px auto 0;
+        margin: 299px auto 0;
+
+        li {
+            cursor: pointer;
+            padding: 20px 0;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                background: $color2;
+                height: 10px;
+                width: 1px;
+                bottom: 49px;
+                left: 0%;
+            }
+            &:last-child::after {
+                content: "";
+                position: absolute;
+                background: $color2;
+                height: 10px;
+                width: 1px;
+                bottom: 49px;
+                right: 0%;
+            }
+
+            &:hover {
+                color: white;
+                background: $color2;
+                padding: 20px 0;
+                border-radius: 0 0 50px 50px;
+
+            }
+        }
     }
 }
